@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    overflow:au
 }
 
 html,
@@ -258,7 +259,7 @@ body {
 
 .content.actived {
     bottom: 150px;
-    width: 800px;
+    width: 700px;
     height: fit-content;
     max-height: 450px;
     margin: 0;
