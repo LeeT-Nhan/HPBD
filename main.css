@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
-    overflow:au
 }
 
 html,
@@ -59,15 +58,17 @@ body {
     overflow-x: hidden;
     font-size: 34px;
     padding: 20px;
+
     font-family: 'Dancing Script', cursive !important;
 }
+
 
 .myAI {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    height: 96px;
-    width: 80px;
+    height: 120px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -259,7 +260,7 @@ body {
 
 .content.actived {
     bottom: 150px;
-    width: 600px;
+    width: 400px;
     height: fit-content;
     max-height: 450px;
     margin: 0;
@@ -300,11 +301,12 @@ body {
 }
 
 .mainContent {
-    overflow: auto;
+    overflow:scroll;
+    height: 300px;
     width: 100%;
     font-family: 'Dancing Script', cursive !important;
     font-size: 18px;
-    text-align:justify;
+    text-align: justify;
 }
 
 /* ---------------------------KEYFRAME---------------------- */
@@ -338,7 +340,7 @@ body {
     }
 
     .myAI {
-        height: 96px;
+        height: 80px;
         bottom: 10px;
         right: 10px;
     }
